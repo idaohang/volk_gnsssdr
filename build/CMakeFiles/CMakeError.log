@@ -1,0 +1,17 @@
+Determining if the include file intrin.h exists failed with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4128711248/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4128711248.dir/build.make CMakeFiles/cmTryCompileExec4128711248.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4128711248.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4128711248.dir/CheckIncludeFile.c.o   -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/include/intrin.h:26:15: fatal error: 'Intrin.h' file not found
+#include_next <Intrin.h>
+              ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec4128711248.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec4128711248/fast] Error 2
+
+

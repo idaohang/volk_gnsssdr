@@ -1,0 +1,14 @@
+prefix=/opt/volk
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+LV_CXXFLAGS=
+
+
+Name: volk_gnsssdr
+Description: VOLK: Vector Optimized Library of Kernels
+Requires:
+Version: 0.1
+Libs: -L${libdir} -lvolk_gnsssdr
+Cflags: -I${includedir} ${LV_CXXFLAGS}
+

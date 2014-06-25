@@ -1,0 +1,6 @@
+/Users/andres/github/volk_gnsssdr/build/python/volk_gnsssdr_modtool/CMakeFiles/pygen_python_volk_gnsssdr_modtool_0afbc.dir
+/Users/andres/github/volk_gnsssdr/build/python/volk_gnsssdr_modtool/CMakeFiles/pygen_python_volk_gnsssdr_modtool_d7ad4.dir
+/Users/andres/github/volk_gnsssdr/build/lib/CMakeFiles/test_all.dir
+/Users/andres/github/volk_gnsssdr/build/lib/CMakeFiles/volk_gnsssdr.dir
+/Users/andres/github/volk_gnsssdr/build/apps/CMakeFiles/volk_gnsssdr-config-info.dir
+/Users/andres/github/volk_gnsssdr/build/apps/CMakeFiles/volk_gnsssdr_profile.dir

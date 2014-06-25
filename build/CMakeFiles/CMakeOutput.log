@@ -1,0 +1,412 @@
+The system is: Darwin - 13.2.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/andres/github/volk_gnsssdr/build/CMakeFiles/3.0.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/andres/github/volk_gnsssdr/build/CMakeFiles/3.0.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec945216087/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec945216087.dir/build.make CMakeFiles/cmTryCompileExec945216087.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec945216087.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec945216087.dir/testCCompiler.c.o   -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec945216087
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec945216087.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec945216087.dir/testCCompiler.c.o  -o cmTryCompileExec945216087  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3559273719/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3559273719.dir/build.make CMakeFiles/cmTryCompileExec3559273719.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3559273719.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3559273719.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3559273719
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3559273719.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec3559273719.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3559273719   
+Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+Target: x86_64-apple-darwin13.2.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec3559273719 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3559273719.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-236.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3559273719/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3559273719.dir/build.make CMakeFiles/cmTryCompileExec3559273719.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3559273719.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3559273719.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3559273719]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3559273719.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec3559273719.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3559273719   ]
+  ignore line: [Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)]
+  ignore line: [Target: x86_64-apple-darwin13.2.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec3559273719 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec3559273719.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.9.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3559273719] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3559273719.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2516269995/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2516269995.dir/build.make CMakeFiles/cmTryCompileExec2516269995.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2516269995.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2516269995.dir/testCXXCompiler.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2516269995
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2516269995.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2516269995.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2516269995  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2862317036/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2862317036.dir/build.make CMakeFiles/cmTryCompileExec2862317036.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2862317036.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2862317036.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2862317036
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2862317036.dir/link.txt --verbose=1
+/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2862317036.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2862317036   
+Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
+Target: x86_64-apple-darwin13.2.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec2862317036 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2862317036.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-236.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2862317036/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2862317036.dir/build.make CMakeFiles/cmTryCompileExec2862317036.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2862317036.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2862317036.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2862317036]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2862317036.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec2862317036.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2862317036   ]
+  ignore line: [Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)]
+  ignore line: [Target: x86_64-apple-darwin13.2.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec2862317036 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec2862317036.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.9.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2862317036] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec2862317036.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the include file cpuid.h exists passed with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1355619309/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1355619309.dir/build.make CMakeFiles/cmTryCompileExec1355619309.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1355619309.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1355619309.dir/CheckIncludeFile.c.o   -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1355619309
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1355619309.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1355619309.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1355619309  
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec744555589/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec744555589.dir/build.make CMakeFiles/cmTryCompileExec744555589.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec744555589.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec744555589.dir/CheckIncludeFile.c.o   -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec744555589
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec744555589.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec744555589.dir/CheckIncludeFile.c.o  -o cmTryCompileExec744555589  
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec557557676/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec557557676.dir/build.make CMakeFiles/cmTryCompileExec557557676.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec557557676.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec557557676.dir/CheckIncludeFile.c.o   -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec557557676
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec557557676.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec557557676.dir/CheckIncludeFile.c.o  -o cmTryCompileExec557557676  
+
+
+Performing C++ SOURCE FILE Test have_m64 succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3237487209/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3237487209.dir/build.make CMakeFiles/cmTryCompileExec3237487209.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3237487209.dir/src.cxx.o
+/usr/bin/c++    -Dhave_m64   -m64 -o CMakeFiles/cmTryCompileExec3237487209.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3237487209
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3237487209.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_m64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3237487209.dir/src.cxx.o  -o cmTryCompileExec3237487209  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_m3dnow succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4207937363/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4207937363.dir/build.make CMakeFiles/cmTryCompileExec4207937363.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4207937363.dir/src.cxx.o
+/usr/bin/c++    -Dhave_m3dnow   -m3dnow -o CMakeFiles/cmTryCompileExec4207937363.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4207937363
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4207937363.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_m3dnow -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4207937363.dir/src.cxx.o  -o cmTryCompileExec4207937363  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_msse4_2 succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1038859583/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1038859583.dir/build.make CMakeFiles/cmTryCompileExec1038859583.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1038859583.dir/src.cxx.o
+/usr/bin/c++    -Dhave_msse4_2   -msse4.2 -o CMakeFiles/cmTryCompileExec1038859583.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1038859583
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1038859583.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_msse4_2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1038859583.dir/src.cxx.o  -o cmTryCompileExec1038859583  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_mpopcnt succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1721230241/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1721230241.dir/build.make CMakeFiles/cmTryCompileExec1721230241.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1721230241.dir/src.cxx.o
+/usr/bin/c++    -Dhave_mpopcnt   -mpopcnt -o CMakeFiles/cmTryCompileExec1721230241.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1721230241
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1721230241.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_mpopcnt -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1721230241.dir/src.cxx.o  -o cmTryCompileExec1721230241  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_mmmx succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2599423901/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2599423901.dir/build.make CMakeFiles/cmTryCompileExec2599423901.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2599423901.dir/src.cxx.o
+/usr/bin/c++    -Dhave_mmmx   -mmmx -o CMakeFiles/cmTryCompileExec2599423901.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2599423901
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2599423901.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_mmmx -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2599423901.dir/src.cxx.o  -o cmTryCompileExec2599423901  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_msse succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec354689412/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec354689412.dir/build.make CMakeFiles/cmTryCompileExec354689412.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec354689412.dir/src.cxx.o
+/usr/bin/c++    -Dhave_msse   -msse -o CMakeFiles/cmTryCompileExec354689412.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec354689412
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec354689412.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_msse -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec354689412.dir/src.cxx.o  -o cmTryCompileExec354689412  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_msse2 succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec793651439/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec793651439.dir/build.make CMakeFiles/cmTryCompileExec793651439.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec793651439.dir/src.cxx.o
+/usr/bin/c++    -Dhave_msse2   -msse2 -o CMakeFiles/cmTryCompileExec793651439.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec793651439
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec793651439.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_msse2 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec793651439.dir/src.cxx.o  -o cmTryCompileExec793651439  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_msse3 succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec132587871/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec132587871.dir/build.make CMakeFiles/cmTryCompileExec132587871.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec132587871.dir/src.cxx.o
+/usr/bin/c++    -Dhave_msse3   -msse3 -o CMakeFiles/cmTryCompileExec132587871.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec132587871
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec132587871.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_msse3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec132587871.dir/src.cxx.o  -o cmTryCompileExec132587871  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_mssse3 succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1483126962/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1483126962.dir/build.make CMakeFiles/cmTryCompileExec1483126962.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1483126962.dir/src.cxx.o
+/usr/bin/c++    -Dhave_mssse3   -mssse3 -o CMakeFiles/cmTryCompileExec1483126962.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1483126962
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1483126962.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_mssse3 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1483126962.dir/src.cxx.o  -o cmTryCompileExec1483126962  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_msse4a succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3172294644/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3172294644.dir/build.make CMakeFiles/cmTryCompileExec3172294644.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3172294644.dir/src.cxx.o
+/usr/bin/c++    -Dhave_msse4a   -msse4a -o CMakeFiles/cmTryCompileExec3172294644.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3172294644
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3172294644.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_msse4a -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3172294644.dir/src.cxx.o  -o cmTryCompileExec3172294644  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_msse4_1 succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1812739290/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1812739290.dir/build.make CMakeFiles/cmTryCompileExec1812739290.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1812739290.dir/src.cxx.o
+/usr/bin/c++    -Dhave_msse4_1   -msse4.1 -o CMakeFiles/cmTryCompileExec1812739290.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1812739290
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1812739290.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_msse4_1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1812739290.dir/src.cxx.o  -o cmTryCompileExec1812739290  
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test have_mavx succeded with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec758956642/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec758956642.dir/build.make CMakeFiles/cmTryCompileExec758956642.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec758956642.dir/src.cxx.o
+/usr/bin/c++    -Dhave_mavx   -mavx -o CMakeFiles/cmTryCompileExec758956642.dir/src.cxx.o -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec758956642
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec758956642.dir/link.txt --verbose=1
+/usr/bin/c++    -Dhave_mavx -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec758956642.dir/src.cxx.o  -o cmTryCompileExec758956642  
+
+Source file was:
+int main() { return 0; }
+Determining size of void*[8] passed with the following output:
+Change Dir: /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3028235533/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3028235533.dir/build.make CMakeFiles/cmTryCompileExec3028235533.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3028235533.dir/SIZEOF_CPU.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3028235533.dir/SIZEOF_CPU.c.o   -c /Users/andres/github/volk_gnsssdr/build/CMakeFiles/CheckTypeSize/SIZEOF_CPU.c
+Linking C executable cmTryCompileExec3028235533
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3028235533.dir/link.txt --verbose=1
+/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3028235533.dir/SIZEOF_CPU.c.o  -o cmTryCompileExec3028235533  
+
+
